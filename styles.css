@@ -1,0 +1,448 @@
+/*
+#eeeeee : light gray
+
+*/
+
+
+body,html {
+    background: #eeeeee;
+    font-family:"Arial";
+	font-size:medium;
+	margin: 0px;
+    padding: 0px;        
+	height:100%;
+}
+
+.page {
+    width:800px;
+    background-color:transparent;
+}
+
+
+table.page {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-collapse:collapse;
+    background-image:url('./img/main.jpg');
+    background-repeat:repeat-y;
+    width:1024px;
+    background-color:white;
+    text-align:center;
+    height:92%;
+}
+
+body.border {
+    background-image:url('./img/border.jpg');
+    background-repeat:repeat;
+    background-color:#2C6D92;
+    text-align:center;
+    height:100%;
+}
+
+p.right {
+	font-size:16px;
+	text-align:right;
+}
+
+.header {
+    background-image:url('./img/upper.jpg');
+    background-repeat:no-repeat;
+    width:1024px;
+    height:35px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td.header {
+    background-image:url('./img/upper.jpg');
+    background-repeat:no-repeat;
+    width:1024px;
+    height:35px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer {
+    background-image:url('./img/lower.jpg');
+    background-repeat:no-repeat;
+    width:1024px;
+    height:25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main {
+    width:899px;
+    height:100%;
+    margin-left:0px;
+    margin-right:auto;
+    text-align:justify;
+    position:relative;
+    left:62px;
+}
+
+.menu {
+    width:100%;
+    height:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	
+}
+
+.menu-cell {
+background:#0a3b76;
+}
+
+.menu-cell {
+background:#0a3b76;
+height:50px;
+}
+
+.text {
+    width:899px;
+    height:68%;
+    margin-left:0px;
+    margin-right:auto;
+    padding-right:2px;
+    text-align:justify;
+    overflow:auto;
+}
+
+p.h0 {
+    font-weight:bold;
+    font-style:normal;
+	font-size:16pt;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:left;
+}
+
+h1 {
+    font-weight:bold;
+    font-style:normal;
+	font-size:12pt;
+    /*color:#2E4E72;*/
+    border-top:10px solid #eeeeee;
+    margin-top:20px;
+    margin-bottom:1px;
+    text-align:justify;
+	
+	
+}
+
+h1.first {
+    border-top:0px;
+    font-weight:bold;
+    font-style:normal;
+	font-size:12pt;
+    margin-top:20px;
+    margin-bottom:1px;
+}
+
+h2 {
+    font-weight:bold;
+    font-style:normal;
+	font-size:10pt;
+    /*color:#2E4E72;*/
+    margin-top:10px;
+    margin-bottom:1px;
+    text-align:justify
+}
+
+ul {
+    margin-top:8px;
+    margin-bottom:0px;
+}
+
+li {
+    margin:0px;
+    padding:2px;
+    font-weight:normal;
+	font-size:10pt;
+    text-align:justify;
+    list-style-image: url('./img/puce.gif');
+    background-repeat: no-repeat;
+    list-style-position: outside;
+}
+
+li.open {
+    list-style-image: url('./img/puce-open.gif');
+    background-repeat: no-repeat;
+}
+li.maproot {
+    list-style-image: url('./img/puce-map-root.gif');
+    background-repeat: no-repeat;
+}
+li.map {
+    list-style-image: url('./img/puce-map.gif');
+    background-repeat: no-repeat;
+}
+
+p {
+    margin-top:8px;
+    margin-bottom:0px;
+    margin-right:0px;
+    position:relative;
+    font-weight:normal;
+	font-size:10pt;
+    text-align:justify;
+}
+
+p.center {
+    text-align:center;
+}
+
+p.right {
+    text-align:right;
+}
+
+p.indent {
+    margin-left:25px;
+}
+
+indent {
+    margin-left:25px;
+}
+
+p.emphasis{
+    font-weight:bold;
+}
+
+p.equation {
+    font-weight:bold;
+	font-size:14pt;
+    text-align:center;
+    color:#BF561F;
+    position:relative;
+    top:7px;
+}
+
+p.submenu{
+    color:#2E4E72;
+	font-size:8pt;
+	margin-bottom:20px;
+}
+
+table.name {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-collapse:collapse;
+}
+
+table.name td {
+    vertical-align:top;
+}
+
+table.paper {
+    margin-left:20px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-collapse:collapse;
+    padding:4px;
+}
+
+table.paper td {
+    vertical-align:top;
+    padding:4px;
+}
+
+table.paper td.year {
+    width:65px;
+}
+
+table.paper td.longyear {
+    width:140px;
+}
+
+table.project {
+    margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-collapse:collapse;
+    padding:4px;
+}
+
+table.project td {
+    vertical-align:middle;
+}
+
+a:link, a:visited
+{
+	color: #034af3;
+}
+
+a:hover {
+	color:#cc0033;
+	
+ }  
+
+a:active {
+	color: #034af3;
+}
+
+.grad {
+ background-image:url(grad.gif);
+ background-repeat:repeat-x;
+ height:15px;
+ 
+ }
+
+ .grad_r {
+ background-image:url(grad_r.gif);
+ background-repeat:repeat-x;
+ height:15px; 
+ }
+
+  
+
+.menu a:link, .menu a:visited{
+	font-weight:bold;
+	font-size:large;
+	color:white;
+}
+
+.menu a:hover, .menu a:focus{
+	font-weight:bold;
+	font-size:large;
+	color:#cc0033;
+}
+
+.title {
+	padding-left:10px;
+	margin-left:10px;
+}
+
+.menu td {
+     border:0px;
+     padding-top:5px;
+     text-align:center;
+     font-size:10pt;
+}
+
+table.content {
+    width:800px;
+	border-collapse:collapse;
+}
+
+table.content tr {
+    margin:0px;
+    padding:0px;
+}
+
+table.content td {
+    margin:0px;
+    padding:0px;
+}
+
+table.panel {
+    width:100%;
+	border-collapse:collapse;
+}
+
+table.panel td {
+	padding: 20px;
+	text-align: justify;
+	vertical-align: top;
+    font-weight:normal;
+	font-size:10pt;
+}
+
+table.step {
+    width:100%;
+	border-collapse:collapse;
+}
+
+table.step td {
+	padding: 5px;
+	text-align: justify;
+	vertical-align: top;
+    font-weight:normal;
+	font-size:10pt;
+}
+
+table.space {
+	border-collapse:collapse;
+}
+
+table.space td {
+    margin:0px;
+    padding:8px;
+	text-align:left;
+	vertical-align: top;
+}
+
+table.plan {
+	width:151px;
+	border-collapse:collapse;
+	margin-left:0px;
+	margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+	position:relative;
+}
+
+table.plan th {
+    margin:0px;
+    padding:2px;
+	text-align:center;
+	vertical-align:middle;
+    font-size:10pt;
+}
+
+table.plan td {
+    margin:0px;
+    padding:2px;
+	text-align:left;
+	vertical-align: top;
+    border-top:1px solid #CDCDCD;
+    border-bottom:1px solid #CDCDCD;
+    border-left:1px solid #CDCDCD;
+    border-right:1px solid #CDCDCD;
+    font-size:10pt;
+}
+
+table.plan ul {
+	margin-left:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+table.plan li {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+    text-align:left;
+    font-weight:bold;
+    font-size:8pt;
+}
+
+td.planh1 {
+    background-color:#F0F0F0;
+}
+
+td.planh1 p {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+    text-align:center;
+    font-weight:bold;
+    font-size:8pt;
+}
+
+.important {
+	font-style:italic;
+    color:#0a3b76;
+    
+}
